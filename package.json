@@ -2,7 +2,7 @@
   "name": "protofilo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Raghadbaizouk1997.github.io",
+  "homepage": "https://Raghadbaizouk1997.github.io/portfolio",
   "dependencies": {
     "-": "^0.0.1",
     "@emailjs/browser": "^3.10.0",
