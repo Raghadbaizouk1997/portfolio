@@ -1,12 +1,22 @@
+import Pr1 from "./assets/pr1.png";
+import Pr2 from "./assets/pr2.png";
+import Pr3 from "./assets/pr3.png";
 import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.png";
-import Project4 from "./assets/project4.png";
 import Project5 from "./assets/project5.png";
-import Project6 from "./assets/project6.png";
 import Project7 from "./assets/project7.png";
-import Project8 from "./assets/project8.png";
 import Project9 from "./assets/project9.png";
+import logo1 from "./assets/logo1.jpeg";
+import logo2 from "./assets/logo2.jpeg";
+import logo3 from "./assets/logo3.jpeg";
+import logo4 from "./assets/logo4.jpeg";
+import logo5 from "./assets/logo5.jpeg";
+import logo6 from "./assets/logo6.jpeg";
+import logo7 from "./assets/logo7.jpeg";
+import logo8 from "./assets/logo8.jpeg";
+import cart11 from "./assets/cart11.jpeg";
+import word1 from "./assets/word1.png";
 
 
 export const links = [
@@ -76,38 +86,36 @@ export const skills = [
     percentage: 90,
     
   },
-
   {
     id: 2,
+    name: "Redux, Redux Toolkit",
+    percentage: 65,
+   
+  },
+
+  {
+    id: 3,
     name: "Angular ",
     percentage: 75,
     
   },
 
   {
-    id: 3,
+    id: 4,
     name: "JavaScript/TypeScript",
     percentage: 90,
     
   },
 
   {
-    id: 4,
+    id: 5,
     name: "PHP/Laravel",
     percentage: 75,
     
   },
-
-  {
-    id: 5,
-    name: "Bootstrap",
-    percentage: 85,
-    
-  },
-
   {
     id: 6,
-    name: "Tailwind css/Material UI",
+    name: "Oracle, My SQL, SQL",
     percentage: 65,
     
   },
@@ -117,32 +125,30 @@ export const skills = [
     percentage: 65,
    
   },
+
   {
     id: 8,
-    name: "Redux, Redux Toolkit",
+    name: "Bootstrap/Tailwind css/Material UI",
     percentage: 65,
-   
+    
   },
+
+
   {
-    id: 9,
+    id: 8,
     name: "ReactNative",
     percentage: 50,
     
   },
+ 
   {
-    id: 10,
-    name: "Oracle, My SQL, SQL",
-    percentage: 65,
-    
-  },
-  {
-    id: 11,
+    id: 9,
     name: "WordPress",
     percentage: 50,
    
   },
   {
-    id: 12,
+    id: 10,
     name: "Git",
     percentage: 90,
    
@@ -150,16 +156,16 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    img: Project1,
-    category: "React",
-    title: "Online Ticketing WebSite",
-    path: "https://onlineticket.expentech.com",
-    description:
-      "ِAproject managing online reservations for transport companies in Syria.",
-    description1: "Number of Font Team: 2",
-  },
+  // {
+  //   id: 1,
+  //   img: Project1,
+  //   category: "React",
+  //   title: "Online Ticketing WebSite",
+  //   path: "https://onlineticket.expentech.com",
+  //   description:
+  //     "ِAproject managing online reservations for transport companies in Syria.",
+  //   description1: "Number of Font Team: 2",
+  // },
   {
     id: 2,
     img: Project2,
@@ -181,16 +187,16 @@ export const projects = [
     description1: "Number of Font Team: 3",
   },
  
-  {
-    id: 4,
-    img: Project4,
-    category: "js/Bootstrap",
-    title: "BOA",
-    path: "https://eloquent-fairy-5d0f8b.netlify.app",
-    description:
-      "A project to study the psychological state of employees at Bank Aljazira.",
-    description1: "Number of Font Team: 2",
-  },
+  // {
+  //   id: 4,
+  //   img: Project4,
+  //   category: "js/Bootstrap",
+  //   title: "BOA",
+  //   path: "https://eloquent-fairy-5d0f8b.netlify.app",
+  //   description:
+  //     "A project to study the psychological state of employees at Bank Aljazira.",
+  //   description1: "Number of Font Team: 2",
+  // },
   {
     id: 5,
     img: Project5,
@@ -202,17 +208,17 @@ export const projects = [
       description1:
       'Number of Font Team: 5',
   },
-  {
-    id: 6,
-    img: Project6,
-    category: "React",
-    title: "IJK",
-    path: "https://ijk-front.expentech.com",
-    description:
-      "A Project for booking Trips in UAE with username:admin and password:admin123 .",
-      description1:
-      'Number of Font Team: 2',
-  },
+  // {
+  //   id: 6,
+  //   img: Project6,
+  //   category: "React",
+  //   title: "IJK",
+  //   path: "https://ijk-front.expentech.com",
+  //   description:
+  //     "A Project for booking Trips in UAE with username:admin and password:admin123 .",
+  //     description1:
+  //     'Number of Font Team: 2',
+  // },
   {
     id: 7,
     img: Project7,
@@ -225,16 +231,107 @@ export const projects = [
       'Number of Font Team: 2',
   },
 
+  // {
+  //   id: 9,
+  //   img: Project9,
+  //   category: "JavaScript",
+  //   title: "Robot",
+  //   path: "https://robot.expentech.com/",
+  //   description: "A project to connect with a robot to detect rubble",
+  //   description1:
+  //   'Number of Font Team: only me',
+  // },
+
   {
-    id: 9,
-    img: Project9,
-    category: "JavaScript",
-    title: "Robot",
-    path: "https://robot.expentech.com/",
-    description: "A project to connect with a robot to detect rubble",
+    id: 11,
+    img: Pr1,
+    category: "Laravel/Vue",
+    title: "anarkali",
+    path: "https://altrazoon.com/",
+    description: "An e-commerce project for selling clothing with full user control through Dashboard with https://altrazoon.com/admin with Email:admin@altrazoon.com and password:123",
     description1:
     'Number of Font Team: only me',
   },
+  {
+    id: 12,
+    img: Pr2,
+    category: "Laravel/Vue",
+    title: "anarkali",
+    path: "https://v22e.com/",
+    description: "An e-commerce project for selling clothing with full user control through Dashboard with https://v22e.com/admin with Email:admin and password:123456",
+    description1:
+    'Number of Font Team: only me',
+  },
+  {
+    id: 13,
+    img: Pr3,
+    category: "Laravel/Vue",
+    title: "wadeema",
+    path: "https://wadeema.com/policy.php",
+    description: "A page explaining the terms and conditions of the wadeema application",
+    description1:
+    'Number of Font Team: only me',
+  },
+  {
+    id: 14,
+    img: word1,
+    category: "wordpress",
+    title: "alsabouh",
+    path: "https://alsabouh.com/",
+    description: "FreeLancer Project",
+    description1:
+    'Number of Font Team: only me',
+  },
+];
+export const design = [
+  {
+    id: 1,
+    img: logo1,
+    category: "Logo",
+  },
+  {
+    id: 2,
+    img: logo2,
+    category: "Logo",
+  },
+  {
+    id: 3,
+    img: logo3,
+    category: "Logo",
+  },
+  {
+    id: 4,
+    img: logo4,
+    category: "Logo",
+  },
+  {
+    id: 5,
+    img: logo5,
+    category: "Logo",
+  },
+  {
+    id: 6,
+    img: logo6,
+    category: "Logo",
+  },
+  {
+    id: 7,
+    img: logo7,
+    category: "Logo",
+  },
+  {
+    id: 8,
+    img: logo8,
+    category: "Logo",
+  },
+  {
+    id: 10,
+    img: cart11,
+    category: "business card",
+   
+  },
+ 
+
 ];
 
 export const cv = [
@@ -258,16 +355,30 @@ export const cv = [
   },
   {
     id: 4,
-    title: "FrontEnd Developer && Mobile Application Developer",
-    subtitle: "CBB MOBI, Dubai",
+    title: "Web Developer",
+    subtitle: "Techno Code Information Technology, Dubai",
     date: "June 2023 - ongoing",
     description:
-      "Design UI & integrate code for +1 application using ReactNative.",
+      "Develop and maintain code for +2 back-end Ecommerce project using Laravel & Design UI & integrate code using Vue.",
 
     description1:
-      "Design UI & integrate code for +1 front-end projects using ReactJS.",
+      "Write clean code, fix bugs and solve problems.",
 
     description2: "Deploy on server.",
+
+
+    category: "experience",
+  },
+  {
+    id: 4,
+    title: "Graphic & Web Developer",
+    subtitle: "FreeLancer, Dubai",
+    date: "June 2023 - ongoing",
+    description:
+      "Designing a logo and business card profile for the company.",
+
+    description1:
+      "Designing introductory WordPress websites for companies.",
 
 
     category: "experience",

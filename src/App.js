@@ -9,6 +9,7 @@ import { Contact } from "./component/contact/Contact";
 import { Footer } from "./component/footer/Footer";
 import { Header } from "./component/header/Header";
 import ImgSlider from "./component/portofilo/ImgSlider";
+import { Design } from './component/design/design';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       {/* <Services /> */}
       <Skills />
       <Portofilo />
+      <Design />
       <Resume />
       <Contact />
       <Footer />

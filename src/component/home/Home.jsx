@@ -28,15 +28,7 @@ export const Home = () => {
               </p>
 
               <p className="home__text">
-                Highly accomplished and user focused  Software Engineer.
-                Passionate about details, performance and quality. I have a vast
-                experience in designing web applications with interactive
-                interface using SPA frameworks. First of all, I'm a software
-                engineer, so that I am not afraid to dive into new technologies
-                or learn new frameworks to solve the problem with the right set
-                of tools. I'm very organized, sociable, motivated with solid
-                organizational skills, so I believe that I'm ready to work with
-                any team.
+                 with 4+ years of software development, interested in building Websites and Web Applications that leads to the success of the overall product
               </p>
               <div className="home__social">
                 <a
@@ -73,14 +65,14 @@ export const Home = () => {
                 />
                 <p className="home__data home__data-one">
                   <span className="text-lg">
-                    5 <b>+</b>
+                    4 <b>+</b>
                   </span>
                   <span className="text-sm text-cs">
                     Years of <span>Experience</span>
                   </span>
                 </p>
                 <p className="home__data home__data-two">
-                  <span className="text-lg">10</span>
+                  <span className="text-lg">6</span>
                   <span className="text-sm text-cs">
                     Completed <span>Projects</span>
                   </span>
@@ -119,7 +111,7 @@ export const Home = () => {
       </div>
 
       <div className="section__bg-wrapper">
-        <span className="bg__title">Front-end Developer</span>
+        <span className="bg__title">Web Developer</span>
       </div>
     </section>
   );

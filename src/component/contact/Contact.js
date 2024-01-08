@@ -1,14 +1,13 @@
-import React, { useState, useRef } from "react";
-import shapeOne from "../../assets/shape-1.png";
-import "./Contact.css";
+import emailjs from "@emailjs/browser";
+import React, { useRef, useState } from "react";
 import {
   FaRegAddressBook,
   FaRegEnvelope,
-  FaRegUser,
   FaRegMap,
+  FaRegUser,
 } from "react-icons/fa";
-import axios from "axios";
-import emailjs from "@emailjs/browser";
+import shapeOne from "../../assets/shape-1.png";
+import "./Contact.css";
 // import styled from "styled-components";
 export const Contact = () => {
   const form = useRef();
@@ -85,7 +84,7 @@ export const Contact = () => {
               <FaRegAddressBook />
             </span>
             <h3 className="contact__card-title">Phone</h3>
-            <p className="contact__card-data">+971 551397990</p>
+            <p className="contact__card-data">+971 527924926</p>
           </div>
         </div>
         {/* <StyledContactForm> */}
