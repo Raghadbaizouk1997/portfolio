@@ -15,7 +15,7 @@ function App() {
     <main className="main">
       {/* <ImgSlider /> */}
       <Header />
-      {/* <Home /> */}
+      <Home />
       {/* <Services /> */}
       <Skills />
       <Portofilo />
