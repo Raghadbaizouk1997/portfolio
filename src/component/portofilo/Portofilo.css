@@ -50,10 +50,11 @@
     border-radius: 18px;
     overflow: hidden;
     height: 500px;
+    
 }
 
 .portfolio__img-wrapper img{
-    height: 100%;
+    height: 100% !important;
 }
 
 .see-project-btn {
@@ -104,4 +105,11 @@ margin-top: 30px;
 }
 .portfolio__description1{
     min-height: 50px;
+}
+
+@media (min-width:768px){
+    .portfolio__img-wrapper{
+
+        height: 500px;
+    }
 }
