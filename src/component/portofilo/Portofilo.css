@@ -107,9 +107,3 @@ margin-top: 30px;
     min-height: 50px;
 }
 
-@media (min-width:768px){
-    .portfolio__img-wrapper{
-
-        height: 500px;
-    }
-}
