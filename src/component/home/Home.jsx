@@ -74,7 +74,7 @@ export const Home = () => {
                   </span>
                 </p>
                 <p className="home__data home__data-two">
-                  <span className="text-lg">7</span>
+                  <span className="text-lg">10</span>
                   <span className="text-sm text-cs">
                     Completed <span>Projects</span>
                   </span>

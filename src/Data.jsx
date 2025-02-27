@@ -1,18 +1,19 @@
 import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
-import Projectf1 from "./assets/projectf1.png";
-import Projectf2 from "./assets/projectf2.png";
-import Projectf3 from "./assets/projectf3.png";
-import Projectf4 from "./assets/projectf4.png";
-import Projectf5 from "./assets/projectf5.png";
-import Projectf11 from "./assets/projectf11.png";
+// import Projectf1 from "./assets/projectf1.png";
+// import Projectf2 from "./assets/projectf2.png";
+// import Projectf3 from "./assets/projectf3.png";
+// import Projectf4 from "./assets/projectf4.png";
+// import Projectf5 from "./assets/projectf5.png";
+// import Projectf11 from "./assets/projectf11.png";
 import Project3 from "./assets/project3.png";
 import Project4 from "./assets/project4.png";
 import Project5 from "./assets/project5.png";
-import Project6 from "./assets/project6.png";
-import Project7 from "./assets/project7.png";
-import Project8 from "./assets/project8.png";
+import Project6 from "./assets/project6.jpg";
+import Project7 from "./assets/project7.jpg";
+import Project8 from "./assets/Project8.jpg";
 import Project9 from "./assets/project9.png";
+import Project10 from "./assets/project10.png";
 
 
 export const links = [
@@ -102,13 +103,13 @@ export const skills = [
     
   },
 
+  
   {
     id: 5,
     name: "JavaScript/TypeScript",
     percentage: 80,
     
   },
-
   {
     id: 6,
     name: "React",
@@ -150,6 +151,12 @@ export const skills = [
  
   {
     id: 12,
+    name: "JQuery",
+    percentage: 50,
+   
+  },
+  {
+    id: 12,
     name: "Git",
     percentage: 90,
    
@@ -159,70 +166,138 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    img: Project1,
-    category: "Wordpress",
-    title: "Almsar Alamthl",
-    path: "https://almsar-alamthl.com/",
-    description:
-      "ِAlmsar Al-Amthl is a leading logistics company in the UAE, offering fast and secure shipping solutions for both individuals and businesses. We aim to simplify delivery processes with high efficiency, quality, and innovation",
-    description1: "Number of  Team: alone",
-    year: "2025",
-  },
-  {
-    id: 2,
-    img: Project2,
-    category: "Wordpress",
-    title: "Secret Selection",
-    path: "https://secret-selection.com/",
-    description:
-      "Secret Selection offers a wide range of luxurious clothing and accessories, featuring the latest fashion trends and the finest designs from around the world. We focus on high-quality materials and unique styles that reflect your personal elegance.",
-    description1: "Number of  Team: alone",
-    year: "2024",
-  },
-  {
-    id: 3,
-    img: Project3,
-    category: "Shopify",
-    title: "Alshamtri Perfume",
-    path: "https://alshamtri.ae/",
-    description:
-      " is an online store specializing in a curated collection of high-end perfumes. We offer a diverse range of luxurious fragrances from renowned global brands, designed to provide customers with an exceptional scent experience for every occasion.",
-    description1: "Number of  Team: alone",
-    year: "2024",
-  },
-  {
-    id: 4,
-    img: Project4,
-    category: "Wordpress",
-    title: "Alkhaaldi",
-    path: "hhttps://alkhaaldi.ae/",
-    description:
-      "Cis an innovative eMarketing platform designed to help businesses enhance their online presence. With a focus on digital marketing strategies, we offer tailored solutions including SEO, social media management, and data-driven campaigns to drive growth and engagement.",
-    description1: "Number of  Team: alone",
-    year: "2024",
-  },
-  {
-    id: 5,
     img: Project5,
     category: "Laravel",
     title: "mm8 Market",
     path: "https://www.mm8market.com/en",
+    path1: "https://apps.apple.com/ae/app/mm8/id6642675276",
+    path2:"",
     description:
       "Ecommerce with dashboard with full control with making api for application mm8",
     description1: "Number of  Team: alone",
     year: "2024",
   },
   {
-    id: 6,
-    img: Project3,
-    category: "Laravel",
-    title: "E11c",
-    path: "https://e11c.com/en",
+    id: 2,
+    img: Project6,
+    category: "Laravel/VueJs",
+    title: "Mybusiness And",
+    path: "",
+    path1:"https://apps.apple.com/us/app/businessand/id6499497614",
+    path2:"https://play.google.com/store/apps/details?id=com.businessAndApp",
     description:
-      "Ecommerce with dashboard with full control",
-    description1: "Number of Font Team: 1",
+      "is a platform for businesses to showcase services, connect with users via chat, and offer discount coupons. Users can browse freely, while registration is required for interaction and reviews.",
+    description1: "Number of Font Team: alone",
+    year: "2024 - 2025",
+  },
+  {
+    id: 3,
+    img: Project7,
+    category: "Laravel/VueJs",
+    title: "Syria5",
+    path: "",
+  
+    path1:"https://apps.apple.com/us/app/syria5/id6736466584",
+    path2: "https://play.google.com/store/apps/details?id=com.syria5",
+    description:
+      "Syria5 is an advertising platform for businesses and individuals, offering chat, discount coupons, and community interaction. Users can access consular services, news, reminders, exclusive Syrian discounts in the UAE, and live or  recorded radio content",
+    description1: "Number of Font Team: alone",
+    year: "2024 - 2025",
+  },
+  {
+    id: 4,
+    img: Project8,
+    category: "Laravel",
+    title: "Bina UAE",
+    path: "",
+    path1:"https://apps.apple.com/us/app/syria5/id6736466584",
+    path2: "https://play.google.com/store/apps/details?id=com.engmahmoudsapplication.app",
+    description:
+      "Bina App is a leading construction platform in the UAE, connecting owners with contractors, consultants, suppliers, and lawyers. Users can manage projects, communicate with professionals, and provide ratings upon project completion.",
+    description1: "Number of Font Team: alone",
+    year: "2024 - 2025",
+  },
+  {
+    id: 5,
+    img: Project2,
+    category: "Wordpress",
+    title: "Secret Selection",
+    path: "https://secret-selection.com/",
+    path1:"",
+    path2:"",
+    description:
+      "Secret Selection offers a wide range of luxurious clothing and accessories, featuring the latest fashion trends and the finest designs from around the world. We focus on high-quality materials and unique styles that reflect your personal elegance.",
+    description1: "Number of  Team: alone",
     year: "2024",
   },
+  {
+    id: 6,
+    img: Project3,
+    category: "Shopify",
+    title: "Alshamtri Perfume",
+    path: "https://alshamtri.ae/",
+    path1:"",
+    path2:"",
+    description:
+      " is an online store specializing in a curated collection of high-end perfumes. We offer a diverse range of luxurious fragrances from renowned global brands, designed to provide customers with an exceptional scent experience for every occasion.",
+    description1: "Number of  Team: alone",
+    year: "2024",
+  },
+  {
+    id: 7,
+    img: Project9,
+    category: "Wordpress",
+    title: "bouteeqat",
+    path: "https://bouteeqat.com/",
+    path1:"",
+    path2: "",
+    description:
+      "Ecommerce project for selling clothing, Perfums, Hair&Body.",
+    description1: "Number of Font Team: alone",
+    year: "2025",
+  },
+  {
+    id: 8,
+    img: Project10,
+    category: "Wordpress",
+    title: "72-marketing",
+    path: "https://72-marketing.com/",
+    path1:"",
+    path2: "",
+    description:
+      "Emarketing Website",
+    description1: "Number of Font Team: alone",
+    year: "2025",
+  },
+  {
+    id: 9,
+    img: Project1,
+    category: "Wordpress",
+    title: "Almsar Alamthl",
+    path: "https://almsar-alamthl.com/",
+    path1:"",
+    path2:"",
+    description:
+      "ِAlmsar Al-Amthl is a leading logistics company in the UAE, offering fast and secure shipping solutions for both individuals and businesses. We aim to simplify delivery processes with high efficiency, quality, and innovation",
+    description1: "Number of  Team: alone",
+    year: "2025",
+  },
+  {
+    id: 10,
+    img: Project4,
+    category: "Wordpress",
+    title: "Alkhaaldi",
+    path: "https://alkhaaldi.ae/",
+    path1:"",
+    path2:"",
+    description:
+      "Cis an innovative eMarketing platform designed to help businesses enhance their online presence. With a focus on digital marketing strategies, we offer tailored solutions including SEO, social media management, and data-driven campaigns to drive growth and engagement.",
+    description1: "Number of  Team: alone",
+    year: "2023",
+  },
+
+
+
 
 ];
 

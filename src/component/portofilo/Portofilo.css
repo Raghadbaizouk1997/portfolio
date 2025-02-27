@@ -49,7 +49,29 @@
 .portfolio__img-wrapper{
     border-radius: 18px;
     overflow: hidden;
+    height: 500px;
 }
+
+.portfolio__img-wrapper img{
+    height: 100%;
+}
+
+.see-project-btn {
+    padding: 10px 20px;
+    background-color: hsl(165, 60%, 40%);  /* Apply your custom color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px; /* Optional: to give the button rounded corners */
+  }
+  
+  .see-project-btn:hover {
+    background-color: hsl(165, 60%, 50%);  /* Slightly lighter shade on hover */
+  }
+  
 .portfolio__img{
     /* height: 240px; */
     width: 100%;
