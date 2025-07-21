@@ -243,19 +243,19 @@ export const projects = [
     description1: "Number of  Team: alone",
     year: "2024",
   },
-  {
-    id: 7,
-    img: Project9,
-    category: "Wordpress",
-    title: "bouteeqat",
-    path: "https://bouteeqat.com/",
-    path1:"",
-    path2: "",
-    description:
-      "Ecommerce project for selling clothing, Perfums, Hair&Body.",
-    description1: "Number of Font Team: alone",
-    year: "2025",
-  },
+  // {
+  //   id: 7,
+  //   img: Project9,
+  //   category: "Wordpress",
+  //   title: "bouteeqat",
+  //   path: "https://bouteeqat.com/",
+  //   path1:"",
+  //   path2: "",
+  //   description:
+  //     "Ecommerce project for selling clothing, Perfums, Hair&Body.",
+  //   description1: "Number of Font Team: alone",
+  //   year: "2025",
+  // },
   {
     id: 8,
     img: Project10,
@@ -269,32 +269,32 @@ export const projects = [
     description1: "Number of Font Team: alone",
     year: "2025",
   },
-  {
-    id: 9,
-    img: Project1,
-    category: "Wordpress",
-    title: "Almsar Alamthl",
-    path: "https://almsar-alamthl.com/",
-    path1:"",
-    path2:"",
-    description:
-      "ِAlmsar Al-Amthl is a leading logistics company in the UAE, offering fast and secure shipping solutions for both individuals and businesses. We aim to simplify delivery processes with high efficiency, quality, and innovation",
-    description1: "Number of  Team: alone",
-    year: "2025",
-  },
-  {
-    id: 10,
-    img: Project4,
-    category: "Wordpress",
-    title: "Alkhaaldi",
-    path: "https://alkhaaldi.ae/",
-    path1:"",
-    path2:"",
-    description:
-      "Cis an innovative eMarketing platform designed to help businesses enhance their online presence. With a focus on digital marketing strategies, we offer tailored solutions including SEO, social media management, and data-driven campaigns to drive growth and engagement.",
-    description1: "Number of  Team: alone",
-    year: "2023",
-  },
+  // {
+  //   id: 9,
+  //   img: Project1,
+  //   category: "Wordpress",
+  //   title: "Almsar Alamthl",
+  //   path: "https://almsar-alamthl.com/",
+  //   path1:"",
+  //   path2:"",
+  //   description:
+  //     "ِAlmsar Al-Amthl is a leading logistics company in the UAE, offering fast and secure shipping solutions for both individuals and businesses. We aim to simplify delivery processes with high efficiency, quality, and innovation",
+  //   description1: "Number of  Team: alone",
+  //   year: "2025",
+  // },
+  // {
+  //   id: 10,
+  //   img: Project4,
+  //   category: "Wordpress",
+  //   title: "Alkhaaldi",
+  //   path: "https://alkhaaldi.ae/",
+  //   path1:"",
+  //   path2:"",
+  //   description:
+  //     "Cis an innovative eMarketing platform designed to help businesses enhance their online presence. With a focus on digital marketing strategies, we offer tailored solutions including SEO, social media management, and data-driven campaigns to drive growth and engagement.",
+  //   description1: "Number of  Team: alone",
+  //   year: "2023",
+  // },
 
 
 
