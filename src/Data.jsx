@@ -164,8 +164,21 @@ export const skills = [
 ];
 
 export const projects = [
-  {
+    {
     id: 1,
+    img: Project9,
+    category: "Laravel/VueJs",
+    title: "Cyber Automotive solutions",
+    path: "https://cyberautomotivesoftware.com/login",
+    path1:"",
+    path2: "",
+    description:
+      "An Automotive Management System, IGMMA is a tailor-made software solution designed to streamline and optimize the operations of auto repair shops. It helps manage various aspects of the workshop's activities, including estimating, job scheduling, parts ordering, inventory management, technician assignments, invoicing, customer communication, and reporting. Built using International Standard Operating Procedures (SOP), IGMMA goes beyond functionality and aims to enhance customer experience, increase operational efficiency, and enable sustained growth.",
+    description1: "Number of Font Team: 20 Developer",
+    year: "2022 - 2025",
+  },
+  {
+    id: 2,
     img: Project5,
     category: "Laravel",
     title: "mm8 Market",
@@ -178,7 +191,7 @@ export const projects = [
     year: "2024",
   },
   {
-    id: 2,
+    id: 3,
     img: Project6,
     category: "Laravel/VueJs",
     title: "Mybusiness And",
@@ -191,7 +204,7 @@ export const projects = [
     year: "2024 - 2025",
   },
   {
-    id: 3,
+    id: 4,
     img: Project7,
     category: "Laravel/VueJs",
     title: "Syria5",
@@ -205,7 +218,7 @@ export const projects = [
     year: "2024 - 2025",
   },
   {
-    id: 4,
+    id: 5,
     img: Project8,
     category: "Laravel",
     title: "Bina UAE",
@@ -218,7 +231,7 @@ export const projects = [
     year: "2024 - 2025",
   },
   {
-    id: 5,
+    id: 6,
     img: Project2,
     category: "Wordpress",
     title: "Secret Selection",
@@ -231,7 +244,7 @@ export const projects = [
     year: "2024",
   },
   {
-    id: 6,
+    id: 7,
     img: Project3,
     category: "Shopify",
     title: "Alshamtri Perfume",
@@ -243,19 +256,7 @@ export const projects = [
     description1: "Number of  Team: alone",
     year: "2024",
   },
-  // {
-  //   id: 7,
-  //   img: Project9,
-  //   category: "Wordpress",
-  //   title: "bouteeqat",
-  //   path: "https://bouteeqat.com/",
-  //   path1:"",
-  //   path2: "",
-  //   description:
-  //     "Ecommerce project for selling clothing, Perfums, Hair&Body.",
-  //   description1: "Number of Font Team: alone",
-  //   year: "2025",
-  // },
+
   {
     id: 8,
     img: Project10,
