@@ -24,13 +24,11 @@ export const Home = () => {
 
               <p className="home__job">
                 <span className="text-cs">I Am </span>
-                <b>Web Developer</b>
+                <b>Software Engineer</b>
               </p>
 
               <p className="home__text">
-                Software engineer with 4+ years of software development,
-                interested in building Websites and Web Applications that leads
-                to the success of the overall product.
+              with 4+ years developing web solutions. Combines technical skills with a product mindset to deliver applications that meet business goals. Passionate about creating user-focused experiences and scalable architectures..
               </p>
               <div className="home__social">
                 <a
@@ -113,7 +111,7 @@ export const Home = () => {
       </div>
 
       <div className="section__bg-wrapper">
-        <span className="bg__title">Web Developer</span>
+        <span className="bg__title">software engineer</span>
       </div>
     </section>
   );

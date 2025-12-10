@@ -137,6 +137,12 @@ export const skills = [
   },
   {
     id: 10,
+    name: "NuxtJs",
+    percentage: 70,
+   
+  },
+  {
+    id: 10,
     name: "HTML, CSS, Bootstrap",
     percentage: 90,
    
@@ -173,8 +179,8 @@ export const projects = [
     path1:"",
     path2: "",
     description:
-      "An Automotive Management System, IGMMA is a tailor-made software solution designed to streamline and optimize the operations of auto repair shops. It helps manage various aspects of the workshop's activities, including estimating, job scheduling, parts ordering, inventory management, technician assignments, invoicing, customer communication, and reporting. Built using International Standard Operating Procedures (SOP), IGMMA goes beyond functionality and aims to enhance customer experience, increase operational efficiency, and enable sustained growth.",
-    description1: "Number of Font Team: 20 Developer",
+      "A full-stack ERP platform for managing business operations across multiple modules.featuring modular architecture for Inventory Management, Purchasing, Sales Order Processing, Sales Returns, Accounting, HR Management, and Reporting...",
+    description1: "Number of Font Team: 12 Developer",
     year: "2022 - 2025",
   },
   {
@@ -304,7 +310,7 @@ export const projects = [
 
 export const cv = [
   {
-    id: 2,
+    id: 1,
     title: "Master in Software and Information Systems Engineering",
     subtitle: "Damascus University, syria",
     date: "SEP 2020 - PRESENT",
@@ -314,7 +320,7 @@ export const cv = [
   },
 
   {
-    id: 3,
+    id: 2,
     title: "Bachelor in Software Engineering",
     subtitle: "AL-Baath University, syria",
     date: "SEP 2014 - AUG 2019",
@@ -322,37 +328,58 @@ export const cv = [
     category: "education",
   },
   {
-    id: 4,
-    title: "Web Developer",
-    subtitle: "Alkhaaldi / TechnoCode",
-    date: "June 2023 - ongoing",
+    id: 3,
+    title: "Full-Stack Developer | ERP System Development",
+    subtitle: "Cyber Automotive Solutions - Dubai",
+    date: "March 2025 - ongoing",
     description:
-      "Develop APIs for mobile and web applications, integrated with Laravel for backend and Vue.js for dashboard creation.",
+      "Built and maintained modular, responsive UIs with Vue.js and Nuxt.js, using Vuex for state management.",
 
     description1:
-      "Design and develop RESTful APIs for +3 applications  using Laravel framework.",
+      "Integrated and optimized RESTful APIs with Larave.",
 
-    description2: "Integrate front-end applications with Laravel APIs and backend services",
-    description3: "Integrate with third party (twilio, msg1, firebase,payment Gateway)",
-    description4: "Implement complex database architectures",
-    description5: "Build flexible filtering and search functionalities",
-    description5: "Develop  +5  project using WordPress from scratch",
+    description2: "Developed and enhanced ERP modules: Inventory, Purchasing, Sales Order & Sales Return, Accounting, HR, and Reporting",
+    description3: "Implemented form validation, real-time data updates, and complex business logic workflows",
+   // description4: "Implement complex database architectures",
+    //description5: "Build flexible filtering and search functionalities",
+    //description5: "Develop  +5  project using WordPress from scratch",
+
+
+    category: "experience",
+  },
+  {
+    id: 4,
+    title: "Web Developer",
+    subtitle: "Alkhaaldi / TechnoCode - Dubai",
+    date: "May 2023 - March 2025",
+    description:
+      "Developed RESTful APIs for 3+ applications using Laravel framework.",
+
+    description1:
+      "Integrated React/Vue.js front-end applications with Laravel backend services.",
+
+    description2: "Integrate with third party (twilio, msg1, firebase,payment Gateway).",
+    description3: "Designed and optimized complex database schemas and relationships.",
+    description4: "Built dynamic filtering and search systems with advanced query optimization.",
+    description5: "Created 5+ custom WordPress/Shopify solutions from scratch, including theme  development and plugin customization",
+    //description5: "Develop  +5  project using WordPress from scratch",
 
 
     category: "experience",
   },
   {
     id: 5,
-    title: "FrontEnd Developer",
-    subtitle: "EXPentech solution, syria",
+    title: "Web Developer",
+    subtitle: "EXPentech solution, Syria",
     date: "July 2022 - May 2023",
     description:
-      "DDesign UI & integrate code for +2  front-end projects using ReactJS",
+      "Designed UI & integrated code for 2+ front-end projects using ReactJS.",
 
     description1:
-      "Build reusable components for future use.",
+      "Integrated with Laravel backend APIs.",
 
-    description2: "Write clean code, fix bugs and solve problems.",
+    description2: "Developed Laravel backend services and RESTful APIs.",
+    description3  : "Write clean code, fix bugs and solve problems.",
 
     category: "experience",
   },
