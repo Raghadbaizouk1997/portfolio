@@ -224,13 +224,12 @@ export const projects = [
     path: "",
   
     path1:"https://syriansinuae.com/download/app",
-    path3:"https://syriansinuae.com/ar/admin/login",
+    //path3:"https://syriansinuae.com/ar/login",
 
     description:
       "Syriansinuae is an advertising platform for businesses and individuals, offering chat, discount coupons, and community interaction. Users can access consular services, news, reminders, exclusive Syrian discounts in the UAE, and live or  recorded radio content",
     description1: "Developed an admin dashboard using Vue.js with a Laravel REST API to manage mobile app content, users, advertisements, notifications, and analytics.",
-    description3: "Number of Font Team: alone",
-     description2: "Test Account: Email: syriansinuae1@gmail.com Password: admin123",
+   //  description2: "Test Account: Email: syriansinuae1@gmail.com Password: admin123",
     year: "2024 - 2025",
   },
   {
