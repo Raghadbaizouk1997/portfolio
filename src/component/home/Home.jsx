@@ -24,11 +24,12 @@ export const Home = () => {
 
               <p className="home__job">
                 <span className="text-cs">I Am </span>
-                <b>Software Engineer</b>
+                <b>Full-Stack Software Engineer</b>
               </p>
 
               <p className="home__text">
-              with 4+ years developing web solutions. Combines technical skills with a product mindset to deliver applications that meet business goals. Passionate about creating user-focused experiences and scalable architectures..
+               with 4+ years of experience, specializing in Laravel backend development, RESTful APIs, and complex database design, with hands-on experience building and integrating modern front-end applications using Vue.js, Nuxt.js, and React.
+
               </p>
               <div className="home__social">
                 <a

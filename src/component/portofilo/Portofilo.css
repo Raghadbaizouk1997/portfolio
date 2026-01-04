@@ -107,3 +107,62 @@ margin-top: 30px;
     min-height: 50px;
 }
 
+.portfolio__credentials {
+  background: linear-gradient(90deg, var(--primary-color), rgba(0,0,0,0.08));
+  color: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+.cred-btn {
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+.cred-btn svg { color: #fff; }
+.creds-row { display:flex; gap:8px; align-items:center; justify-content:space-between; }
+.creds-text { color:#333; }
+.creds-copy {
+  background:#007bff; color:#fff; border:none; padding:6px 8px; border-radius:6px; cursor:pointer;
+}
+.copy-note { color: #28a745; margin-top:6px; display:block; }
+/* New credential layout styles */
+.portfolio__credentials .cred-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.portfolio__credentials .label {
+  font-weight: 700;
+  width: 86px;
+  color: #555;
+}
+.portfolio__credentials .value {
+  flex: 1;
+  color: #222;
+  word-break: break-word;
+}
+.portfolio__credentials .cred-actions {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.cred-btn {
+  background: #eef2f7;
+  border: 1px solid #d0d7df;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.cred-btn svg {
+  width: 14px;
+  height: 14px;
+  color: #333;
+}
+.copy-notes { margin-top: 6px; }
+.muted { color: #777; font-style: italic; }

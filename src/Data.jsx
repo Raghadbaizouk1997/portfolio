@@ -10,7 +10,7 @@ import Project3 from "./assets/project3.png";
 import Project4 from "./assets/project4.png";
 import Project5 from "./assets/project5.png";
 import Project6 from "./assets/project6.jpg";
-import Project7 from "./assets/project7.jpg";
+import Project7 from "./assets/project7.jpeg";
 import Project8 from "./assets/Project8.jpg";
 import Project9 from "./assets/project9.png";
 import Project10 from "./assets/project10.png";
@@ -79,76 +79,88 @@ export const services = [
 export const skills = [
   {
     id: 1,
-    name: "Laravel/PHP",
+    name: "PHP, Laravel, RESTful APIs,ERP",
     percentage: 90,
     
   },
 
   {
     id: 2,
-    name: "PHP",
+    name: "MVC, OOP, SOLID Principles",
     percentage: 70,
     
   },
   {
     id: 3,
-    name: "OOP",
+    name: "Authentication & Authorization (JWT, Roles & Permissions), Caching",
+    percentage: 70,
+    
+  },
+    {
+    id: 4,
+    name: "Payment Gateway Integration",
+    percentage: 60,
+    
+  },
+  {
+    id: 5,
+    name: "Oracle, My SQL, SQL",
     percentage: 90,
     
   },
   {
-    id: 4,
-    name: "Oracle, My SQL, SQL",
-    percentage: 90,
+    id: 6,
+    name: "AWS, VPS & Server Deployment.",
+    percentage: 60,
     
   },
 
   
   {
-    id: 5,
+    id: 7,
     name: "JavaScript/TypeScript",
     percentage: 80,
     
   },
   {
-    id: 6,
+    id: 8,
     name: "React",
-    percentage: 85,
+    percentage: 70,
     
   },
 
   {
-    id: 7,
+    id: 9,
     name: "Angular",
     percentage: 45,
     
   },
   {
-    id: 8,
-    name: "Wordpress",
-    percentage: 90,
-   
-  },
-  {
-    id: 9,
-    name: "VueJs",
-    percentage: 90,
-   
-  },
-  {
     id: 10,
-    name: "NuxtJs",
+    name: "Wordpress",
     percentage: 70,
    
   },
   {
-    id: 10,
+    id: 11,
+    name: "Vue.js, Nuxt.js",
+    percentage: 70,
+   
+  },
+  {
+    id: 12,
+    name: "React, Redux",
+    percentage: 70,
+   
+  },
+  {
+    id: 13,
     name: "HTML, CSS, Bootstrap",
     percentage: 90,
    
   },
   {
-    id: 11,
+    id: 14,
     name: "Shopify",
     percentage: 50,
    
@@ -156,15 +168,21 @@ export const skills = [
 
  
   {
-    id: 12,
+    id: 15,
     name: "JQuery",
     percentage: 50,
    
   },
   {
-    id: 12,
+    id: 16,
     name: "Git",
     percentage: 90,
+   
+  },
+    {
+    id: 17,
+    name: "Jira",
+    percentage: 70,
    
   },
 ];
@@ -181,23 +199,42 @@ export const projects = [
     description:
       "A full-stack ERP platform for managing business operations across multiple modules.featuring modular architecture for Inventory Management, Purchasing, Sales Order Processing, Sales Returns, Accounting, HR Management, and Reporting...",
     description1: "Number of Font Team: 12 Developer",
+    description2: "Test Account: Email: prem.bespoke@gmail.com Password: 12345678",
     year: "2022 - 2025",
   },
   {
     id: 2,
     img: Project5,
-    category: "Laravel",
+    category: "Laravel/JavaScript/jQuery",
     title: "mm8 Market",
     path: "https://www.mm8market.com/en",
     path1: "https://apps.apple.com/ae/app/mm8/id6642675276",
-    path2:"",
+    path3:"https://www.mm8market.com/admin",
     description:
       "Ecommerce with dashboard with full control with making api for application mm8",
     description1: "Number of  Team: alone",
+    //description2: "Test Account: Email: prem.bespoke@gmail.com Password: 12345678",
     year: "2024",
   },
-  {
+    {
     id: 3,
+    img: Project7,
+    category: "Laravel/VueJs",
+    title: "Syriansinuae",
+    path: "",
+  
+    path1:"https://syriansinuae.com/download/app",
+    path3:"https://syriansinuae.com/ar/admin/login",
+
+    description:
+      "Syriansinuae is an advertising platform for businesses and individuals, offering chat, discount coupons, and community interaction. Users can access consular services, news, reminders, exclusive Syrian discounts in the UAE, and live or  recorded radio content",
+    description1: "Developed an admin dashboard using Vue.js with a Laravel REST API to manage mobile app content, users, advertisements, notifications, and analytics.",
+    description3: "Number of Font Team: alone",
+     description2: "Test Account: Email: syriansinuae1@gmail.com Password: admin123",
+    year: "2024 - 2025",
+  },
+  {
+    id: 4,
     img: Project6,
     category: "Laravel/VueJs",
     title: "Mybusiness And",
@@ -209,27 +246,14 @@ export const projects = [
     description1: "Number of Font Team: alone",
     year: "2024 - 2025",
   },
-  {
-    id: 4,
-    img: Project7,
-    category: "Laravel/VueJs",
-    title: "Syria5",
-    path: "",
-  
-    path1:"https://apps.apple.com/us/app/syria5/id6736466584",
-    path2: "https://play.google.com/store/apps/details?id=com.syria5",
-    description:
-      "Syria5 is an advertising platform for businesses and individuals, offering chat, discount coupons, and community interaction. Users can access consular services, news, reminders, exclusive Syrian discounts in the UAE, and live or  recorded radio content",
-    description1: "Number of Font Team: alone",
-    year: "2024 - 2025",
-  },
+
   {
     id: 5,
     img: Project8,
     category: "Laravel",
     title: "Bina UAE",
     path: "",
-    path1:"https://apps.apple.com/us/app/syria5/id6736466584",
+    path1:"https://apps.apple.com/us/app/bina-app/id6737613505",
     path2: "https://play.google.com/store/apps/details?id=com.engmahmoudsapplication.app",
     description:
       "Bina App is a leading construction platform in the UAE, connecting owners with contractors, consultants, suppliers, and lawyers. Users can manage projects, communicate with professionals, and provide ratings upon project completion.",
@@ -333,13 +357,13 @@ export const cv = [
     subtitle: "Cyber Automotive Solutions - Dubai",
     date: "March 2025 - ongoing",
     description:
-      "Built and maintained modular, responsive UIs with Vue.js and Nuxt.js, using Vuex for state management.",
+      "Designed and developed scalable Laravel REST APIs for ERP modules.",
 
     description1:
-      "Integrated and optimized RESTful APIs with Larave.",
+      "Built complex business logic for Inventory,Repair Orders, Accounting, HR, Reporting.",
 
-    description2: "Developed and enhanced ERP modules: Inventory, Purchasing, Sales Order & Sales Return, Accounting, HR, and Reporting",
-    description3: "Implemented form validation, real-time data updates, and complex business logic workflows",
+    description2: "Optimized database queries and relationships,Query Optimization, Indexing",
+    description3: "Integrated frontend using Vue/Nuxt",
    // description4: "Implement complex database architectures",
     //description5: "Build flexible filtering and search functionalities",
     //description5: "Develop  +5  project using WordPress from scratch",
@@ -353,7 +377,7 @@ export const cv = [
     subtitle: "Alkhaaldi / TechnoCode - Dubai",
     date: "May 2023 - March 2025",
     description:
-      "Developed RESTful APIs for 3+ applications using Laravel framework.",
+      "Developed and maintained RESTful APIs using Laravel for 3+ production applications.",
 
     description1:
       "Integrated React/Vue.js front-end applications with Laravel backend services.",
