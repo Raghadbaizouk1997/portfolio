@@ -1,12 +1,19 @@
-import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+import React, { useState } from "react";
 import shapeSecond from "../../assets/shape-2.png";
 import { motion } from "framer-motion";
-import Modal from "@material-ui/core/Modal";
-import { photos } from "../../Data";
-
+import ImageLightbox from "./ImageLightbox";
 
 const Items = ({ PojectITems }) => {
+  const [preview, setPreview] = useState(null);
+
+  const openImagePreview = (image, title) => {
+    setPreview({ src: image, alt: title });
+  };
+
+  const closeImagePreview = () => {
+    setPreview(null);
+  };
+
   const handleProjectNavigation = (path) => {
     // Navigate to the URL (You can use window.location.href or an anchor tag)
     window.open(path, "_blank");  // Opens the link in a new tab
@@ -14,6 +21,11 @@ const Items = ({ PojectITems }) => {
 
   return (
     <>
+      <ImageLightbox
+        src={preview?.src}
+        alt={preview?.alt}
+        onClose={closeImagePreview}
+      />
       {PojectITems.map((PojectITem) => {
         const { id, img, category, title, description, path, description1, year, path1, path2 } = PojectITem;
 
@@ -27,9 +39,14 @@ const Items = ({ PojectITems }) => {
             className="portfolio__items card card-two"
             key={id}
           >
-            <div className="portfolio__img-wrapper">
+            <button
+              type="button"
+              className="portfolio__img-wrapper"
+              onClick={() => openImagePreview(img, title)}
+              aria-label={`View full image for ${title}`}
+            >
               <img src={img} className="portfolio__img" alt={title} />
-            </div>
+            </button>
 
             <span className="portfolio__category text-cs">{category}</span>
 

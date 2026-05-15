@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../../assets/1.jpg";
+import profileImg from "../../assets/1.jpeg";
 import shapeOne from "../../assets/shape-1.png";
 import shapeSecond from "../../assets/shape-2.png";
 import CV from "../../assets/resume.pdf";
@@ -28,9 +28,7 @@ export const Home = () => {
               </p>
 
               <p className="home__text">
-                Software engineer with 4+ years of software development,
-                interested in building Websites and Web Applications that leads
-                to the success of the overall product.
+              Full-Stack Software Engineer with 5+ years of experience specializing in Laravel backend development, RESTful API design, and complex database architecture, complemented by hands-on expertise in modern front-end frameworks including Vue.js, Nuxt.js, and React.
               </p>
               <div className="home__social">
                 <a
@@ -60,25 +58,29 @@ export const Home = () => {
             </div>
             <div className="childtwo">
               <div className="home__profile_personal-wrapper">
-                <img
-                  src={profileImg}
-                  alt=""
-                  className="home__profile_personal"
-                />
-                <p className="home__data home__data-one">
-                  <span className="text-lg">
-                    4 <b>+</b>
-                  </span>
-                  <span className="text-sm text-cs">
-                    Years of <span>Experience</span>
-                  </span>
-                </p>
-                <p className="home__data home__data-two">
-                  <span className="text-lg">10</span>
-                  <span className="text-sm text-cs">
-                    Completed <span>Projects</span>
-                  </span>
-                </p>
+                <div className="home__profile_personal-banner">
+                  <img
+                    src={profileImg}
+                    alt="Raghad Baizouk"
+                    className="home__profile_personal"
+                  />
+                </div>
+                <div className="home__profile_stats">
+                  <p className="home__data home__data-one">
+                    <span className="text-lg">
+                      5 <b>+</b>
+                    </span>
+                    <span className="text-sm text-cs">
+                      Years of <span>Experience</span>
+                    </span>
+                  </p>
+                  <p className="home__data home__data-two">
+                    <span className="text-lg">12</span>
+                    <span className="text-sm text-cs">
+                      Completed <span>Projects</span>
+                    </span>
+                  </p>
+                </div>
               </div>
               {/* <div className="home__img-wapper">
                 <div className="home__banner">
@@ -113,7 +115,7 @@ export const Home = () => {
       </div>
 
       <div className="section__bg-wrapper">
-        <span className="bg__title">Web Developer</span>
+        <span className="bg__title">Software Engineer</span>
       </div>
     </section>
   );

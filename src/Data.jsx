@@ -1,19 +1,18 @@
 import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
 // import Projectf1 from "./assets/projectf1.png";
-// import Projectf2 from "./assets/projectf2.png";
+// import Projectf2 from "./assets/projectf2.png"7
 // import Projectf3 from "./assets/projectf3.png";
 // import Projectf4 from "./assets/projectf4.png";
 // import Projectf5 from "./assets/projectf5.png";
 // import Projectf11 from "./assets/projectf11.png";
+import Project10 from "./assets/project10.png";
 import Project3 from "./assets/project3.png";
-import Project4 from "./assets/project4.png";
 import Project5 from "./assets/project5.png";
 import Project6 from "./assets/project6.jpg";
-import Project7 from "./assets/project7.jpg";
+import Project7 from "./assets/project7.webp";
 import Project8 from "./assets/Project8.jpg";
 import Project9 from "./assets/project9.png";
-import Project10 from "./assets/project10.png";
 
 
 export const links = [
@@ -79,86 +78,116 @@ export const services = [
 export const skills = [
   {
     id: 1,
-    name: "Laravel/PHP",
+    name: "PHP | Laravel",
     percentage: 90,
     
   },
 
   {
     id: 2,
-    name: "PHP",
-    percentage: 70,
+    name: "Asp.net",
+    percentage: 50,
     
   },
   {
     id: 3,
-    name: "OOP",
+    name: "MVC | OOP | Design Patterns",
     percentage: 90,
     
   },
   {
     id: 4,
-    name: "Oracle, My SQL, SQL",
-    percentage: 90,
+    name: "Authentication | Authorization",
+    percentage: 70,
     
   },
 
   
   {
     id: 5,
-    name: "JavaScript/TypeScript",
+    name: "Api  Integrations | Caching",
     percentage: 80,
     
   },
   {
     id: 6,
-    name: "React",
+    name: "Payment Gateway Integration",
+    percentage: 70,
+    
+  },
+  { 
+    id: 7,
+    name: "Queue System",
+    percentage: 80,
+    
+  },
+  { 
+    id: 8,
+    name: "Redis",
+    percentage: 60,
+    
+  },
+  {
+    id: 8,
+    name: "JavaScript, TypeScript",
     percentage: 85,
     
   },
 
   {
-    id: 7,
-    name: "Angular",
-    percentage: 45,
+    id: 10,
+    name: "Vue.js, Nuxt, Vuetify",
+    percentage: 50,
     
   },
   {
-    id: 8,
-    name: "Wordpress",
-    percentage: 90,
-   
-  },
-  {
-    id: 9,
-    name: "VueJs",
-    percentage: 90,
-   
-  },
-  {
-    id: 10,
-    name: "HTML, CSS, Bootstrap",
-    percentage: 90,
-   
-  },
-  {
     id: 11,
-    name: "Shopify",
+    name: " React | Redux",
+    percentage: 60,
+   
+  },
+  {
+    id: 12,
+    name: "Angular",
+    percentage: 40,
+   
+  },
+  {
+    id: 13,
+    name: "AWS | VPS | Docker | CI/CD",
     percentage: 50,
+    
+  },
+  {
+    id: 14,
+    name: "GIT",
+    percentage: 80,
    
   },
 
  
   {
-    id: 12,
-    name: "JQuery",
+    id: 15,
+    name: "Wordpress",
+    percentage: 80,
+   
+  },
+  {
+    id: 16,
+    name: "Shopify",
     percentage: 50,
    
   },
   {
-    id: 12,
-    name: "Git",
-    percentage: 90,
+    id: 17,
+    name: "Jira",
+    percentage: 50,
+   
+  },
+  {
+    id: 18,
+    name: "AI Automation",
+    percentage: 50,
    
   },
 ];
@@ -167,20 +196,20 @@ export const projects = [
     {
     id: 1,
     img: Project9,
-    category: "Laravel/VueJs",
+    category: "Laravel | Vue | Nuxt",
     title: "Cyber Automotive solutions",
-    path: "https://cyberautomotivesoftware.com/login",
+    path: "",
     path1:"",
     path2: "",
     description:
       "An Automotive Management System, IGMMA is a tailor-made software solution designed to streamline and optimize the operations of auto repair shops. It helps manage various aspects of the workshop's activities, including estimating, job scheduling, parts ordering, inventory management, technician assignments, invoicing, customer communication, and reporting. Built using International Standard Operating Procedures (SOP), IGMMA goes beyond functionality and aims to enhance customer experience, increase operational efficiency, and enable sustained growth.",
     description1: "Number of Font Team: 20 Developer",
-    year: "2022 - 2025",
+    year: "2025 - 2026",
   },
   {
     id: 2,
     img: Project5,
-    category: "Laravel",
+    category: "Laravel | JavaScript | Jquery",
     title: "mm8 Market",
     path: "https://www.mm8market.com/en",
     path1: "https://apps.apple.com/ae/app/mm8/id6642675276",
@@ -193,7 +222,7 @@ export const projects = [
   {
     id: 3,
     img: Project6,
-    category: "Laravel/VueJs",
+    category: "Laravel | Vue",
     title: "Mybusiness And",
     path: "",
     path1:"https://apps.apple.com/us/app/businessand/id6499497614",
@@ -206,16 +235,16 @@ export const projects = [
   {
     id: 4,
     img: Project7,
-    category: "Laravel/VueJs",
-    title: "Syria5",
+    category: "Laravel | Vue",
+    title: "Syrians in UAE",
     path: "",
   
-    path1:"https://apps.apple.com/us/app/syria5/id6736466584",
-    path2: "https://play.google.com/store/apps/details?id=com.syria5",
+    path1:"https://apps.apple.com/ae/app/syrians-in-uae/id6745216434",
+    path2: "https://play.google.com/store/apps/details?id=com.syriansInUae&pcampaignid=web_share",
     description:
-      "Syria5 is an advertising platform for businesses and individuals, offering chat, discount coupons, and community interaction. Users can access consular services, news, reminders, exclusive Syrian discounts in the UAE, and live or  recorded radio content",
+      "Our application facilitates communication between service providers and service seekers, such as employees searching for a job and employers finding the right employee. It also helps users find housing, used furniture, and various other services. It gives companies a space to post their offers to users with a discount rate and a specific discount period. The application generates a coupon, and the user can scratch the coupon to receive the discount. Service seekers can communicate with the service provider via chat",
     description1: "Number of Font Team: alone",
-    year: "2024 - 2025",
+    year: "2023 - 2026",
   },
   {
     id: 5,
@@ -323,36 +352,57 @@ export const cv = [
   },
   {
     id: 4,
-    title: "Web Developer",
-    subtitle: "Alkhaaldi / TechnoCode",
-    date: "June 2023 - ongoing",
+    title: "Full-Stack Developer | ERP System Development",
+    subtitle: "Cyber Automotive Solutions",
+    date: "March 2025 - ongoing",
     description:
       "Develop APIs for mobile and web applications, integrated with Laravel for backend and Vue.js for dashboard creation.",
 
     description1:
-      "Design and develop RESTful APIs for +3 applications  using Laravel framework.",
+      "Designed and developed scalable Laravel REST APIs for ERP modules.",
+
+    description2: "Built complex business logic for Inventory,Repair Orders, Accounting, HR, Reporting",
+    description3: "Optimized database queries and relationships,Query Optimization, Indexing",
+    description4: "Integrated frontend using Vue/Nuxt",
+    description5: "",
+    description5: "",
+
+
+    category: "experience",
+  },
+  {
+    id: 4,
+    title: "Web Developer",
+    subtitle: "Alkhaaldi / TechnoCode",
+    date: "May 2023 -  March 2025",
+    description:
+      "Developed and maintained RESTful APIs using Laravel for 3+ production applications",
+
+    description1:
+      "Integrated React/Vue.js front-end applications with Laravel backend services",
 
     description2: "Integrate front-end applications with Laravel APIs and backend services",
     description3: "Integrate with third party (twilio, msg1, firebase,payment Gateway)",
-    description4: "Implement complex database architectures",
-    description5: "Build flexible filtering and search functionalities",
-    description5: "Develop  +5  project using WordPress from scratch",
+    description4: "Designed and optimized complex database schemas and relationships",
+    description5: "Built dynamic filtering and search systems with advanced query optimization",
+    description5: "Created 5+ custom WordPress/Shopify solutions from scratch, including theme  development and plugin customization",
 
 
     category: "experience",
   },
   {
     id: 5,
-    title: "FrontEnd Developer",
+    title: " Web Developer",
     subtitle: "EXPentech solution, syria",
-    date: "July 2022 - May 2023",
+    date: "July 2022 - March  2023",
     description:
-      "DDesign UI & integrate code for +2  front-end projects using ReactJS",
+      "Developed and maintained Laravel backend services and RESTful APIs for production applications",
 
     description1:
-      "Build reusable components for future use.",
+      "Integrated ReactJS front-end applications with Laravel APIs to support dynamic data exchange",
 
-    description2: "Write clean code, fix bugs and solve problems.",
+    description2: "Implemented core business logic, handled API responses",
+    description3: "Write clean code, fix bugs and solve problems",
 
     category: "experience",
   },
@@ -374,10 +424,12 @@ export const cv = [
     subtitle: "Tatweer, syria",
     date: "July 2020 - July 2022",
     description:
-      "Design UI & integrate code for +1 front-end projects using Angular.",
+      "Design UI & integrate code for ERP system  using Angular",
     description1:
-      "Communicate with customer, collect and discuss requirements",
+      "Built and maintained ERP system  using ASP.NET",
     description2:
+      "Communicate with customers, collect and discuss requirements",
+      description3:
       "write clean, maintainable, and efficient code.",
     category: "experience",
   },

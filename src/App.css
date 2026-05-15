@@ -80,7 +80,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 40px;
   /* flex-wrap: wrap; */
+}
+
+.childone {
+  flex: 1 1 55%;
+  min-width: 0;
+}
+
+.childtwo {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .light-theme .skills__percentage {
   background: var(--border-color);
@@ -172,16 +185,67 @@ img {
 .childtwo{
   width: 50%;
 } */
-.home__profile_personal {
-  height: 670px;
-  border-radius: 50%;
-  object-fit: cover;
-  left: 0px;
+.home__profile_personal-wrapper {
+  position: relative;
   width: 100%;
-  position: relative;
+  max-width: 360px;
+  padding-bottom: 28px;
 }
-.home__profile_personal-wrapper{
+
+.home__profile_personal-banner {
   position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--primary-color);
+  box-shadow: var(--shadow);
+  background-color: var(--container-color);
+}
+
+.home__profile_personal {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  display: block;
+}
+
+.home__profile_stats {
+  position: absolute;
+  left: 50%;
+  bottom: 14%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  width: calc(100% + 56px);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.home__profile_stats .home__data,
+.home__profile_stats .home__data-one,
+.home__profile_stats .home__data-two {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  flex: 1 1 0;
+  max-width: 220px;
+  min-width: 0;
+  width: auto;
+  padding-inline: 18px;
+  pointer-events: auto;
+}
+
+.home__profile_stats .home__data .text-lg {
+  font-size: 34px;
+}
+
+.home__profile_stats .home__data .text-sm {
+  font-size: 12px;
 }
 @media (min-width: 320px) and (max-width: 1200px) {
   .container_header {
@@ -201,9 +265,38 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    gap: 48px;
   }
-  .home__profile_personal {
-    height: 100% !important;
+
+  .childone,
+  .childtwo {
+    flex: 1 1 100%;
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .home__profile_personal-wrapper {
+    max-width: 280px;
+    margin-inline: auto;
+    padding-bottom: 22px;
+  }
+
+  .home__profile_stats {
+    width: calc(100% + 24px);
+    gap: 10px;
+  }
+
+  .home__profile_stats .home__data {
+    max-width: 165px;
+    padding-inline: 12px;
+  }
+
+  .home__profile_stats .home__data .text-lg {
+    font-size: 26px;
+  }
+
+  .home__profile_stats .home__data .text-sm {
+    font-size: 10px;
   }
   .home__job,.home__text{
     text-align: center;
