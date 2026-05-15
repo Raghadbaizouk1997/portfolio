@@ -10,11 +10,7 @@ import Project10 from "./assets/project10.png";
 import Project3 from "./assets/project3.png";
 import Project5 from "./assets/project5.png";
 import Project6 from "./assets/project6.jpg";
-<<<<<<< HEAD
 import Project7 from "./assets/project7.webp";
-=======
-import Project7 from "./assets/project7.jpeg";
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
 import Project8 from "./assets/Project8.jpg";
 import Project9 from "./assets/project9.png";
 
@@ -82,305 +78,159 @@ export const services = [
 export const skills = [
   {
     id: 1,
-<<<<<<< HEAD
     name: "PHP | Laravel",
-=======
-    name: "PHP, Laravel, RESTful APIs,ERP",
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
     percentage: 90,
-    
   },
-
   {
     id: 2,
-<<<<<<< HEAD
     name: "Asp.net",
     percentage: 50,
-=======
-    name: "MVC, OOP, SOLID Principles",
-    percentage: 70,
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
-    
   },
   {
     id: 3,
-<<<<<<< HEAD
     name: "MVC | OOP | Design Patterns",
-=======
-    name: "Authentication & Authorization (JWT, Roles & Permissions), Caching",
-    percentage: 70,
-    
-  },
-    {
-    id: 4,
-    name: "Payment Gateway Integration",
-    percentage: 60,
-    
-  },
-  {
-    id: 5,
-    name: "Oracle, My SQL, SQL",
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
     percentage: 90,
-    
   },
   {
-<<<<<<< HEAD
     id: 4,
     name: "Authentication | Authorization",
     percentage: 70,
-=======
-    id: 6,
-    name: "AWS, VPS & Server Deployment.",
-    percentage: 60,
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
-    
   },
-
-  
   {
-<<<<<<< HEAD
     id: 5,
     name: "Api  Integrations | Caching",
-=======
-    id: 7,
-    name: "JavaScript/TypeScript",
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
     percentage: 80,
-    
   },
   {
-<<<<<<< HEAD
     id: 6,
     name: "Payment Gateway Integration",
     percentage: 70,
-    
   },
-  { 
+  {
     id: 7,
     name: "Queue System",
     percentage: 80,
-    
   },
-  { 
+  {
     id: 8,
     name: "Redis",
     percentage: 60,
-    
   },
   {
-    id: 8,
+    id: 9,
     name: "JavaScript, TypeScript",
     percentage: 85,
-=======
-    id: 8,
-    name: "React",
-    percentage: 70,
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
-    
   },
-
   {
-<<<<<<< HEAD
     id: 10,
     name: "Vue.js, Nuxt, Vuetify",
     percentage: 50,
-    
   },
   {
     id: 11,
     name: " React | Redux",
     percentage: 60,
-=======
-    id: 9,
-    name: "Angular",
-    percentage: 45,
-    
-  },
-  {
-    id: 10,
-    name: "Wordpress",
-    percentage: 70,
-   
-  },
-  {
-    id: 11,
-    name: "Vue.js, Nuxt.js",
-    percentage: 70,
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
-   
   },
   {
     id: 12,
-<<<<<<< HEAD
     name: "Angular",
     percentage: 40,
-=======
-    name: "React, Redux",
-    percentage: 70,
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
-   
   },
   {
     id: 13,
-<<<<<<< HEAD
     name: "AWS | VPS | Docker | CI/CD",
-=======
-    name: "HTML, CSS, Bootstrap",
-    percentage: 90,
-   
-  },
-  {
-    id: 14,
-    name: "Shopify",
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
     percentage: 50,
-    
   },
   {
     id: 14,
     name: "GIT",
     percentage: 80,
-   
   },
-
- 
   {
     id: 15,
-<<<<<<< HEAD
     name: "Wordpress",
     percentage: 80,
-   
   },
   {
     id: 16,
     name: "Shopify",
-=======
-    name: "JQuery",
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
     percentage: 50,
-   
   },
   {
-<<<<<<< HEAD
     id: 17,
     name: "Jira",
     percentage: 50,
-   
   },
   {
     id: 18,
     name: "AI Automation",
     percentage: 50,
-=======
-    id: 16,
-    name: "Git",
-    percentage: 90,
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
-   
-  },
-    {
-    id: 17,
-    name: "Jira",
-    percentage: 70,
-   
   },
 ];
 
 export const projects = [
-    {
+  {
     id: 1,
     img: Project9,
     category: "Laravel | Vue | Nuxt",
     title: "Cyber Automotive solutions",
     path: "",
-    path1:"",
+    path1: "",
     path2: "",
     description:
-<<<<<<< HEAD
       "An Automotive Management System, IGMMA is a tailor-made software solution designed to streamline and optimize the operations of auto repair shops. It helps manage various aspects of the workshop's activities, including estimating, job scheduling, parts ordering, inventory management, technician assignments, invoicing, customer communication, and reporting. Built using International Standard Operating Procedures (SOP), IGMMA goes beyond functionality and aims to enhance customer experience, increase operational efficiency, and enable sustained growth.",
     description1: "Number of Font Team: 20 Developer",
     year: "2025 - 2026",
-=======
-      "A full-stack ERP platform for managing business operations across multiple modules.featuring modular architecture for Inventory Management, Purchasing, Sales Order Processing, Sales Returns, Accounting, HR Management, and Reporting...",
-    description1: "Number of Font Team: 12 Developer",
-    description2: "Test Account: Email: prem.bespoke@gmail.com Password: 12345678",
-    year: "2022 - 2025",
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
   },
   {
     id: 2,
     img: Project5,
-<<<<<<< HEAD
     category: "Laravel | JavaScript | Jquery",
-=======
-    category: "Laravel/JavaScript/jQuery",
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
     title: "mm8 Market",
     path: "https://www.mm8market.com/en",
     path1: "https://apps.apple.com/ae/app/mm8/id6642675276",
-    path3:"https://www.mm8market.com/admin",
+    path3: "https://www.mm8market.com/admin",
     description:
       "Ecommerce with dashboard with full control with making api for application mm8",
     description1: "Number of  Team: alone",
-    //description2: "Test Account: Email: prem.bespoke@gmail.com Password: 12345678",
     year: "2024",
   },
-    {
-    id: 3,
-    img: Project7,
-    category: "Laravel/VueJs",
-    title: "Syriansinuae",
-    path: "",
-  
-    path1:"https://syriansinuae.com/download/app",
-    //path3:"https://syriansinuae.com/ar/login",
-
-    description:
-      "Syriansinuae is an advertising platform for businesses and individuals, offering chat, discount coupons, and community interaction. Users can access consular services, news, reminders, exclusive Syrian discounts in the UAE, and live or  recorded radio content",
-    description1: "Developed an admin dashboard using Vue.js with a Laravel REST API to manage mobile app content, users, advertisements, notifications, and analytics.",
-   //  description2: "Test Account: Email: syriansinuae1@gmail.com Password: admin123",
-    year: "2024 - 2025",
-  },
   {
-    id: 4,
+    id: 3,
     img: Project6,
     category: "Laravel | Vue",
     title: "Mybusiness And",
     path: "",
-    path1:"https://apps.apple.com/us/app/businessand/id6499497614",
-    path2:"https://play.google.com/store/apps/details?id=com.businessAndApp",
+    path1: "https://apps.apple.com/us/app/businessand/id6499497614",
+    path2: "https://play.google.com/store/apps/details?id=com.businessAndApp",
     description:
       "is a platform for businesses to showcase services, connect with users via chat, and offer discount coupons. Users can browse freely, while registration is required for interaction and reviews.",
     description1: "Number of Font Team: alone",
     year: "2024 - 2025",
   },
-<<<<<<< HEAD
   {
     id: 4,
     img: Project7,
     category: "Laravel | Vue",
     title: "Syrians in UAE",
     path: "",
-  
-    path1:"https://apps.apple.com/ae/app/syrians-in-uae/id6745216434",
-    path2: "https://play.google.com/store/apps/details?id=com.syriansInUae&pcampaignid=web_share",
+    path1: "https://apps.apple.com/ae/app/syrians-in-uae/id6745216434",
+    path2:
+      "https://play.google.com/store/apps/details?id=com.syriansInUae&pcampaignid=web_share",
     description:
       "Our application facilitates communication between service providers and service seekers, such as employees searching for a job and employers finding the right employee. It also helps users find housing, used furniture, and various other services. It gives companies a space to post their offers to users with a discount rate and a specific discount period. The application generates a coupon, and the user can scratch the coupon to receive the discount. Service seekers can communicate with the service provider via chat",
     description1: "Number of Font Team: alone",
     year: "2023 - 2026",
   },
-=======
-
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
   {
     id: 5,
     img: Project8,
     category: "Laravel",
     title: "Bina UAE",
     path: "",
-    path1:"https://apps.apple.com/us/app/bina-app/id6737613505",
-    path2: "https://play.google.com/store/apps/details?id=com.engmahmoudsapplication.app",
+    path1: "https://apps.apple.com/us/app/bina-app/id6737613505",
+    path2:
+      "https://play.google.com/store/apps/details?id=com.engmahmoudsapplication.app",
     description:
       "Bina App is a leading construction platform in the UAE, connecting owners with contractors, consultants, suppliers, and lawyers. Users can manage projects, communicate with professionals, and provide ratings upon project completion.",
     description1: "Number of Font Team: alone",
@@ -392,8 +242,8 @@ export const projects = [
     category: "Wordpress",
     title: "Secret Selection",
     path: "https://secret-selection.com/",
-    path1:"",
-    path2:"",
+    path1: "",
+    path2: "",
     description:
       "Secret Selection offers a wide range of luxurious clothing and accessories, featuring the latest fashion trends and the finest designs from around the world. We focus on high-quality materials and unique styles that reflect your personal elegance.",
     description1: "Number of  Team: alone",
@@ -405,57 +255,25 @@ export const projects = [
     category: "Shopify",
     title: "Alshamtri Perfume",
     path: "https://alshamtri.ae/",
-    path1:"",
-    path2:"",
+    path1: "",
+    path2: "",
     description:
       " is an online store specializing in a curated collection of high-end perfumes. We offer a diverse range of luxurious fragrances from renowned global brands, designed to provide customers with an exceptional scent experience for every occasion.",
     description1: "Number of  Team: alone",
     year: "2024",
   },
-
   {
     id: 8,
     img: Project10,
     category: "Wordpress",
     title: "72-marketing",
     path: "https://72-marketing.com/",
-    path1:"",
+    path1: "",
     path2: "",
-    description:
-      "Emarketing Website",
+    description: "Emarketing Website",
     description1: "Number of Font Team: alone",
     year: "2025",
   },
-  // {
-  //   id: 9,
-  //   img: Project1,
-  //   category: "Wordpress",
-  //   title: "Almsar Alamthl",
-  //   path: "https://almsar-alamthl.com/",
-  //   path1:"",
-  //   path2:"",
-  //   description:
-  //     "ِAlmsar Al-Amthl is a leading logistics company in the UAE, offering fast and secure shipping solutions for both individuals and businesses. We aim to simplify delivery processes with high efficiency, quality, and innovation",
-  //   description1: "Number of  Team: alone",
-  //   year: "2025",
-  // },
-  // {
-  //   id: 10,
-  //   img: Project4,
-  //   category: "Wordpress",
-  //   title: "Alkhaaldi",
-  //   path: "https://alkhaaldi.ae/",
-  //   path1:"",
-  //   path2:"",
-  //   description:
-  //     "Cis an innovative eMarketing platform designed to help businesses enhance their online presence. With a focus on digital marketing strategies, we offer tailored solutions including SEO, social media management, and data-driven campaigns to drive growth and engagement.",
-  //   description1: "Number of  Team: alone",
-  //   year: "2023",
-  // },
-
-
-
-
 ];
 
 export const cv = [
@@ -468,7 +286,6 @@ export const cv = [
       "I finished all my courses and I am working on my masters thesis.",
     category: "education",
   },
-
   {
     id: 2,
     title: "Bachelor in Software Engineering",
@@ -478,30 +295,19 @@ export const cv = [
     category: "education",
   },
   {
-<<<<<<< HEAD
-    id: 4,
-    title: "Full-Stack Developer | ERP System Development",
-    subtitle: "Cyber Automotive Solutions",
-=======
     id: 3,
     title: "Full-Stack Developer | ERP System Development",
-    subtitle: "Cyber Automotive Solutions - Dubai",
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
+    subtitle: "Cyber Automotive Solutions",
     date: "March 2025 - ongoing",
     description:
-      "Designed and developed scalable Laravel REST APIs for ERP modules.",
-
+      "Developed and maintained RESTful APIs using Laravel for 3+ production applications.",
     description1:
-<<<<<<< HEAD
       "Designed and developed scalable Laravel REST APIs for ERP modules.",
-
-    description2: "Built complex business logic for Inventory,Repair Orders, Accounting, HR, Reporting",
-    description3: "Optimized database queries and relationships,Query Optimization, Indexing",
+    description2:
+      "Built complex business logic for Inventory, Repair Orders, Accounting, HR, Reporting",
+    description3:
+      "Optimized database queries and relationships, Query Optimization, Indexing",
     description4: "Integrated frontend using Vue/Nuxt",
-    description5: "",
-    description5: "",
-
-
     category: "experience",
   },
   {
@@ -511,79 +317,31 @@ export const cv = [
     date: "May 2023 -  March 2025",
     description:
       "Developed and maintained RESTful APIs using Laravel for 3+ production applications",
-
     description1:
       "Integrated React/Vue.js front-end applications with Laravel backend services",
-
-    description2: "Integrate front-end applications with Laravel APIs and backend services",
-    description3: "Integrate with third party (twilio, msg1, firebase,payment Gateway)",
-    description4: "Designed and optimized complex database schemas and relationships",
-    description5: "Built dynamic filtering and search systems with advanced query optimization",
-    description5: "Created 5+ custom WordPress/Shopify solutions from scratch, including theme  development and plugin customization",
-=======
-      "Built complex business logic for Inventory,Repair Orders, Accounting, HR, Reporting.",
-
-    description2: "Optimized database queries and relationships,Query Optimization, Indexing",
-    description3: "Integrated frontend using Vue/Nuxt",
-   // description4: "Implement complex database architectures",
-    //description5: "Build flexible filtering and search functionalities",
-    //description5: "Develop  +5  project using WordPress from scratch",
-
-
-    category: "experience",
-  },
-  {
-    id: 4,
-    title: "Web Developer",
-    subtitle: "Alkhaaldi / TechnoCode - Dubai",
-    date: "May 2023 - March 2025",
-    description:
-      "Developed and maintained RESTful APIs using Laravel for 3+ production applications.",
-
-    description1:
-      "Integrated React/Vue.js front-end applications with Laravel backend services.",
-
-    description2: "Integrate with third party (twilio, msg1, firebase,payment Gateway).",
-    description3: "Designed and optimized complex database schemas and relationships.",
-    description4: "Built dynamic filtering and search systems with advanced query optimization.",
-    description5: "Created 5+ custom WordPress/Shopify solutions from scratch, including theme  development and plugin customization",
-    //description5: "Develop  +5  project using WordPress from scratch",
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
-
-
+    description2:
+      "Integrate front-end applications with Laravel APIs and backend services",
+    description3:
+      "Integrate with third party (twilio, msg1, firebase, payment Gateway)",
+    description4:
+      "Designed and optimized complex database schemas and relationships",
+    description5:
+      "Built dynamic filtering and search systems with advanced query optimization; created 5+ custom WordPress/Shopify solutions from scratch, including theme development and plugin customization",
     category: "experience",
   },
   {
     id: 5,
-<<<<<<< HEAD
-    title: " Web Developer",
+    title: "Web Developer",
     subtitle: "EXPentech solution, syria",
-    date: "July 2022 - March  2023",
+    date: "July 2022 - March 2023",
     description:
       "Developed and maintained Laravel backend services and RESTful APIs for production applications",
-
     description1:
       "Integrated ReactJS front-end applications with Laravel APIs to support dynamic data exchange",
-
     description2: "Implemented core business logic, handled API responses",
     description3: "Write clean code, fix bugs and solve problems",
-=======
-    title: "Web Developer",
-    subtitle: "EXPentech solution, Syria",
-    date: "July 2022 - May 2023",
-    description:
-      "Designed UI & integrated code for 2+ front-end projects using ReactJS.",
-
-    description1:
-      "Integrated with Laravel backend APIs.",
-
-    description2: "Developed Laravel backend services and RESTful APIs.",
-    description3  : "Write clean code, fix bugs and solve problems.",
->>>>>>> 49c86fe90328a2e527f7883bf94406ca87e397b0
-
     category: "experience",
   },
-
   {
     id: 6,
     title: "Teaching Assistant",
@@ -594,20 +352,16 @@ export const cv = [
     description2: "Supervisor for +3 IT projects.",
     category: "experience",
   },
-
   {
     id: 7,
     title: "Web Developer",
     subtitle: "Tatweer, syria",
     date: "July 2020 - July 2022",
-    description:
-      "Design UI & integrate code for ERP system  using Angular",
-    description1:
-      "Built and maintained ERP system  using ASP.NET",
+    description: "Design UI & integrate code for ERP system using Angular",
+    description1: "Built and maintained ERP system using ASP.NET",
     description2:
       "Communicate with customers, collect and discuss requirements",
-      description3:
-      "write clean, maintainable, and efficient code.",
+    description3: "write clean, maintainable, and efficient code.",
     category: "experience",
   },
   {
@@ -617,60 +371,56 @@ export const cv = [
     date: "May 2019 - July 2020",
     description:
       "Designed and developed RESTful APIs using the Laravel framework for Ecommerce Website",
-    description1:
-      "Write clean code, fix bugs and solve problems",
+    description1: "Write clean code, fix bugs and solve problems",
     category: "experience",
   },
 ];
 
 export const photos = [
   {
-    title:"project1",
+    title: "project1",
     src: Project1,
     width: 4,
-    height: 3
+    height: 3,
   },
   {
     src: Project2,
     width: 1,
-    height: 1
+    height: 1,
   },
   {
     src: Project2,
     width: 3,
-    height: 4
+    height: 4,
   },
   {
     src: Project2,
     width: 3,
-    height: 4
+    height: 4,
   },
   {
     src: Project2,
     width: 3,
-    height: 4
+    height: 4,
   },
   {
     src: Project2,
     width: 4,
-    height: 3
+    height: 3,
   },
   {
     src: Project2,
     width: 3,
-    height: 4
+    height: 4,
   },
   {
     src: Project2,
     width: 4,
-    height: 3
+    height: 3,
   },
   {
     src: Project2,
     width: 4,
-    height: 3
-  }
+    height: 3,
+  },
 ];
-
-
-

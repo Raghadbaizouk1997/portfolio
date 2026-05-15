@@ -2,10 +2,20 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { FaCopy, FaEye, FaEyeSlash } from "react-icons/fa";
 import shapeSecond from "../../assets/shape-2.png";
+import ImageLightbox from "./ImageLightbox";
 
 const Items = ({ PojectITems }) => {
+  const [preview, setPreview] = useState(null);
   const [copied, setCopied] = useState({});
   const [showPassId, setShowPassId] = useState(null);
+
+  const openImagePreview = (image, title) => {
+    setPreview({ src: image, alt: title });
+  };
+
+  const closeImagePreview = () => {
+    setPreview(null);
+  };
 
   const handleProjectNavigation = (path) => {
     // Navigate to the URL (You can use window.location.href or an anchor tag)
