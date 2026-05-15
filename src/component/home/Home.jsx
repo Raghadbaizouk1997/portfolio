@@ -24,7 +24,7 @@ export const Home = () => {
 
               <p className="home__job">
                 <span className="text-cs">I Am </span>
-                <b>Web Developer</b>
+                <b>Full-Stack Software Engineer</b>
               </p>
 
               <p className="home__text">
