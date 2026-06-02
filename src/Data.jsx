@@ -88,84 +88,105 @@ export const skills = [
   },
   {
     id: 3,
+    name: "NodeJs",
+    percentage: 40,
+  },
+  {
+    id: 4,
+    name: "MySQL | Oracle | MongoDB",
+    percentage: 80,
+  },
+  {
+    id: 5,
     name: "MVC | OOP | Design Patterns",
     percentage: 90,
   },
   {
-    id: 4,
+    id: 6,
     name: "Authentication | Authorization",
-    percentage: 70,
-  },
-  {
-    id: 5,
-    name: "Api  Integrations | Caching",
     percentage: 80,
   },
   {
-    id: 6,
-    name: "Payment Gateway Integration",
-    percentage: 70,
-  },
-  {
     id: 7,
-    name: "Queue System",
+    name: "API  Integrations | Caching",
     percentage: 80,
   },
   {
     id: 8,
+    name: "Payment Gateway Integration",
+    percentage: 70,
+  },
+  {
+    id: 9,
+    name: "Queue System",
+    percentage: 80,
+  },
+  {
+    id: 10,
     name: "Redis",
     percentage: 60,
   },
   {
-    id: 9,
-    name: "JavaScript, TypeScript",
+    id: 11,
+    name: "JavaScript | TypeScript | JQuery",
     percentage: 85,
   },
   {
-    id: 10,
-    name: "Vue.js, Nuxt, Vuetify",
-    percentage: 50,
+    id: 12,
+    name: "Vue.js | Nuxt | Vuetify | Vuex",
+    percentage: 70,
   },
   {
-    id: 11,
+    id: 13,
     name: " React | Redux",
     percentage: 60,
   },
   {
-    id: 12,
-    name: "Angular",
+    id: 14,
+    name: "Angular | Material UI | Ant Design",
     percentage: 40,
   },
-  {
-    id: 13,
-    name: "AWS | VPS | Docker | CI/CD",
+    {
+    id: 15,
+    name: "Tailwind | Bootstrap",
     percentage: 50,
   },
   {
-    id: 14,
+    id: 16,
+    name: "AWS | VPS | Docker | CI/CD",
+    percentage: 60,
+  },
+  {
+    id: 17,
     name: "GIT",
     percentage: 80,
   },
   {
-    id: 15,
-    name: "Wordpress",
+    id: 18,
+    name: "WordPress | Shopify | Zoho",
     percentage: 80,
   },
   {
-    id: 16,
-    name: "Shopify",
-    percentage: 50,
+    id: 19,
+    name: "SEO Optimization",
+    percentage: 70,
   },
   {
-    id: 17,
-    name: "Jira",
-    percentage: 50,
+    id: 20,
+    name: "Agile | Scrum | Jira",
+    percentage: 70,
   },
   {
-    id: 18,
+    id: 21,
     name: "AI Automation",
     percentage: 50,
   },
+  {
+    id: 22,
+    name: "React Native",
+    percentage: 30,
+  },
+
 ];
 
 export const projects = [
@@ -296,7 +317,7 @@ export const cv = [
   },
   {
     id: 3,
-    title: "Full-Stack Developer | ERP System Development",
+    title: "Sr. FullStack Developer | ERP System Development",
     subtitle: "Cyber Automotive Solutions",
     date: "March 2025 - ongoing",
     description:
@@ -312,7 +333,7 @@ export const cv = [
   },
   {
     id: 4,
-    title: "Web Developer",
+    title: "FullStack Developer",
     subtitle: "Alkhaaldi / TechnoCode",
     date: "May 2023 -  March 2025",
     description:
@@ -331,7 +352,7 @@ export const cv = [
   },
   {
     id: 5,
-    title: "Web Developer",
+    title: "FullStack Developer",
     subtitle: "EXPentech solution, syria",
     date: "July 2022 - March 2023",
     description:
@@ -354,7 +375,7 @@ export const cv = [
   },
   {
     id: 7,
-    title: "Web Developer",
+    title: "FullStack Developer",
     subtitle: "Tatweer, syria",
     date: "July 2020 - July 2022",
     description: "Design UI & integrate code for ERP system using Angular",
@@ -366,7 +387,7 @@ export const cv = [
   },
   {
     id: 8,
-    title: "Web Developer",
+    title: "FullStack Developer",
     subtitle: "E-Tech Group, Freelancer",
     date: "May 2019 - July 2020",
     description:
