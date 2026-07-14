@@ -340,6 +340,7 @@ export const cv = [
       "Integrated Sentry for real-time error tracking and application monitoring, improving platform stability.",
     category: "experience",
   },
+  
   {
     id: 5,
     title: "Full-Stack Developer",
