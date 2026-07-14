@@ -79,91 +79,91 @@ export const skills = [
   {
     id: 1,
     name: "PHP | Laravel",
-    percentage: 90,
+    percentage: 95,
   },
   {
     id: 2,
-    name: "Asp.net",
-    percentage: 50,
+    name: "Node.js | Express.js",
+    percentage: 85,
   },
   {
     id: 3,
-    name: "NodeJs",
-    percentage: 40,
+    name: "Python",
+    percentage: 70,
   },
   {
     id: 4,
-    name: "MySQL | Oracle | MongoDB",
-    percentage: 80,
+    name: "Asp.net",
+    percentage: 55,
   },
   {
     id: 5,
-    name: "MVC | OOP | Design Patterns",
+    name: "MySQL | Oracle | MongoDB",
     percentage: 90,
   },
   {
     id: 6,
-    name: "Authentication | Authorization",
-    percentage: 80,
+    name: "MVC | OOP | Design Patterns",
+    percentage: 90,
   },
   {
     id: 7,
-    name: "API  Integrations | Caching",
-    percentage: 80,
+    name: "Authentication | Authorization",
+    percentage: 90,
   },
   {
     id: 8,
-    name: "Payment Gateway Integration",
-    percentage: 70,
+    name: "API Integrations | Caching",
+    percentage: 88,
   },
   {
     id: 9,
-    name: "Queue System",
+    name: "Payment Gateway Integration",
     percentage: 80,
   },
   {
     id: 10,
-    name: "Redis",
-    percentage: 60,
+    name: "JavaScript | TypeScript | JQuery",
+    percentage: 90,
   },
   {
     id: 11,
-    name: "JavaScript | TypeScript | JQuery",
+    name: "Vue.js | Nuxt | Vuetify | Vuex",
     percentage: 85,
   },
   {
     id: 12,
-    name: "Vue.js | Nuxt | Vuetify | Vuex",
-    percentage: 70,
+    name: "React | Redux",
+    percentage: 85,
   },
   {
     id: 13,
-    name: " React | Redux",
-    percentage: 60,
+    name: "Next.js",
+    percentage: 75,
   },
   {
     id: 14,
-    name: "Angular | Material UI | Ant Design",
-    percentage: 40,
-  },
-    {
-    id: 15,
-    name: "Tailwind | Bootstrap",
-    percentage: 50,
-  },
-  {
-    id: 16,
-    name: "AWS | VPS | Docker | CI/CD",
+    name: "Angular",
     percentage: 60,
   },
   {
-    id: 17,
-    name: "GIT",
+    id: 15,
+    name: "Tailwind | Bootstrap",
     percentage: 80,
   },
   {
+    id: 16,
+    name: "AWS | Azure | VPS | Docker | CI/CD",
+    percentage: 70,
+  },
+  {
+    id: 17,
+    name: "Git",
+    percentage: 90,
+  },
+  {
     id: 18,
-    name: "WordPress | Shopify | Zoho",
+    name: "WordPress | Shopify",
     percentage: 80,
   },
   {
@@ -174,19 +174,13 @@ export const skills = [
   {
     id: 20,
     name: "Agile | Scrum | Jira",
-    percentage: 70,
+    percentage: 80,
   },
   {
     id: 21,
     name: "AI Automation",
-    percentage: 50,
+    percentage: 65,
   },
-  {
-    id: 22,
-    name: "React Native",
-    percentage: 30,
-  },
-
 ];
 
 export const projects = [
@@ -301,98 +295,98 @@ export const cv = [
   {
     id: 1,
     title: "Master in Software and Information Systems Engineering",
-    subtitle: "Damascus University, syria",
-    date: "SEP 2020 - PRESENT",
+    subtitle: "Damascus University, Syria",
+    date: "SEP 2020 - MAY 2023",
     description:
-      "I finished all my courses and I am working on my masters thesis.",
+      "Master's degree in Software and Information Systems Engineering.",
     category: "education",
   },
   {
     id: 2,
     title: "Bachelor in Software Engineering",
-    subtitle: "AL-Baath University, syria",
+    subtitle: "AL-Baath University, Syria",
     date: "SEP 2014 - AUG 2019",
-    description: "Top 15 in my class.",
+    description: "Ranked Top 15 in class.",
     category: "education",
   },
   {
     id: 3,
-    title: "Sr. FullStack Developer | ERP System Development",
-    subtitle: "Cyber Automotive Solutions",
-    date: "March 2025 - ongoing",
+    title: "Full-Stack Developer | ERP System Development",
+    subtitle: "Cyber Automotive Solutions, Dubai",
+    date: "Mar 2025 - Ongoing",
     description:
-      "Developed and maintained RESTful APIs using Laravel for 3+ production applications.",
-    description1:
       "Designed and developed scalable Laravel REST APIs for ERP modules.",
+    description1:
+      "Built complex business logic for Inventory, Repair Orders, Accounting, HR, and Reporting.",
     description2:
-      "Built complex business logic for Inventory, Repair Orders, Accounting, HR, Reporting",
-    description3:
-      "Optimized database queries and relationships, Query Optimization, Indexing",
-    description4: "Integrated frontend using Vue/Nuxt",
+      "Optimized database queries and relationships with indexing and query optimization.",
+    description3: "Integrated frontend using Vue.js and Nuxt.js.",
     category: "experience",
   },
   {
     id: 4,
-    title: "FullStack Developer",
-    subtitle: "Alkhaaldi / TechnoCode",
-    date: "May 2023 -  March 2025",
+    title: "Full-Stack Developer",
+    subtitle: "Techno Code, Part-time Remote",
+    date: "SEP 2024 - Ongoing",
     description:
-      "Developed and maintained RESTful APIs using Laravel for 3+ production applications",
+      "Architected and developed a full-stack SaaS Job Portal using React.js, Node.js, and Express.js, supporting both employers and job seekers.",
     description1:
-      "Integrated React/Vue.js front-end applications with Laravel backend services",
+      "Built core platform features including employer dashboard, resume upload, job alerts, advanced search & filter, and interview scheduling.",
     description2:
-      "Integrate front-end applications with Laravel APIs and backend services",
+      "Implemented secure authentication and session management using Clerk, with role-based access for employers and candidates.",
     description3:
-      "Integrate with third party (twilio, msg1, firebase, payment Gateway)",
+      "Designed and optimized MongoDB database schemas to handle job listings, applications, and user profiles at scale.",
     description4:
-      "Designed and optimized complex database schemas and relationships",
-    description5:
-      "Built dynamic filtering and search systems with advanced query optimization; created 5+ custom WordPress/Shopify solutions from scratch, including theme development and plugin customization",
+      "Integrated Sentry for real-time error tracking and application monitoring, improving platform stability.",
     category: "experience",
   },
   {
     id: 5,
-    title: "FullStack Developer",
-    subtitle: "EXPentech solution, syria",
-    date: "July 2022 - March 2023",
+    title: "Full-Stack Developer",
+    subtitle: "Alkhaaldi, Dubai",
+    date: "May 2023 - March 2025",
     description:
-      "Developed and maintained Laravel backend services and RESTful APIs for production applications",
+      "Developed and maintained APIs using Laravel for 3+ production applications.",
     description1:
-      "Integrated ReactJS front-end applications with Laravel APIs to support dynamic data exchange",
-    description2: "Implemented core business logic, handled API responses",
-    description3: "Write clean code, fix bugs and solve problems",
+      "Integrated React/Vue.js front-end applications with Laravel backend services.",
+    description2:
+      "Integrated with third parties (Twilio, MSG91, Firebase, Payment Gateway).",
+    description3:
+      "Designed and optimized complex database schemas and relationships.",
+    description4:
+      "Built dynamic filtering and search systems with advanced query optimization.",
+    description5:
+      "Built RESTful APIs using Node.js and MySQL for a business advertising platform connecting companies.",
     category: "experience",
   },
   {
     id: 6,
-    title: "Teaching Assistant",
-    subtitle: "IT university, syria",
-    date: "SEP 2021 - MAR 2023",
-    description: "Teaching c++ language.",
-    description1: "Teaching java language.",
-    description2: "Supervisor for +3 IT projects.",
+    title: "Full-Stack Developer",
+    subtitle: "EXPentech Solution, Syria",
+    date: "July 2022 - Mar 2023",
+    description:
+      "Developed and maintained Laravel backend services and RESTful APIs for production applications.",
+    description1:
+      "Integrated ReactJS front-end applications with Laravel APIs to support dynamic data exchange.",
     category: "experience",
   },
   {
     id: 7,
-    title: "FullStack Developer",
-    subtitle: "Tatweer, syria",
-    date: "July 2020 - July 2022",
-    description: "Design UI & integrate code for ERP system using Angular",
-    description1: "Built and maintained ERP system using ASP.NET",
-    description2:
-      "Communicate with customers, collect and discuss requirements",
-    description3: "write clean, maintainable, and efficient code.",
+    title: "Teaching Assistant",
+    subtitle: "Damascus University, Syria",
+    date: "SEP 2021 - Mar 2023",
+    description: "Taught C++ and Java programming to undergraduate students.",
+    description1:
+      "Supervised and mentored 3+ student software projects from inception to delivery.",
     category: "experience",
   },
   {
     id: 8,
-    title: "FullStack Developer",
-    subtitle: "E-Tech Group, Freelancer",
-    date: "May 2019 - July 2020",
-    description:
-      "Designed and developed RESTful APIs using the Laravel framework for Ecommerce Website",
-    description1: "Write clean code, fix bugs and solve problems",
+    title: "Full-Stack Developer",
+    subtitle: "Tatweer, Syria",
+    date: "July 2020 - July 2022",
+    description: "Designed UI and integrated code for ERP system using Angular.",
+    description1: "Built and maintained ERP system using ASP.NET.",
     category: "experience",
   },
 ];
